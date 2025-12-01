@@ -78,7 +78,7 @@ export default function App(){
           <div className="relative">
             <input value={q} onChange={e => setQ(e.target.value)} placeholder="Search" className="input w-48" />
           </div>
-          <button onClick={() => exportCSV()} className="button bg-white border px-3 py-2">Export CSV</button>
+          <button onClick={() => exportCSV()} className="button bg-white border px-3 py-2 tab">Export CSV</button>
         </div>
 
         <div className="grid layout-grid gap-4">
