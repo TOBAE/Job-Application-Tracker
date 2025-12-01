@@ -11,7 +11,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://tobae.github.io/Job-Application-Tracker/",
+  "homepage": "https://TOBAE.github.io/Job-Application-Tracker",
+  
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/vite": "^4.1.17",
